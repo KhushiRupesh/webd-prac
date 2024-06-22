@@ -1,0 +1,17 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "khushi",
+    "subscribedToChannel": "100Devs"
+}
+
+###
+DELETE http://localhost:3000/subscribers/id
+
+###
+PATCH http://localhost:3000/subscribers/id
